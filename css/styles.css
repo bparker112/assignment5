@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    flex-direction: row
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form input,
+textarea,
+select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+form select {
+    text-align: center
+}
+
+form {
+    color: darkolivegreen
+}
+
+
+header,
+main {
+    color: darkolivegreen;
+    background-color: rgba(255, 218, 252, 0.17);
+    font-family: monospace
+}
+
+
+
+h1,
+strong {
+    color: black;
+}
+
+a {
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a:hover {
+    color: darkseagreen
+}
+
+main p {
+    color: darkslategrey
+}
+
+h3 {
+    text-transform: uppercase
+}
+
+.dark-green {
+    color: rgb(5, 6, 37);
+}
+
+.madtatter-font-big {
+    font-size: 30px;
+}
+
+#madtatter-font-heavy {
+    font-weight: 900;
+}
+
+#content p {
+    color: darkslateblue;
+}
+
+h2 style {
+    color: aliceblue
+}
+
+img {
+    border: 4px dotted black
+}
+
+@media screen and (max-width: 30rem) {
+    h1 {
+        color: fuchsia;
+    }
+}
+
+li {
+    list-style-type: none
+}

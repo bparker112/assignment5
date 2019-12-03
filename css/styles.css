@@ -8,6 +8,17 @@ form p {
     margin-bottom: 1em;
 }
 
+body {
+
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center; 
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
 form input,
 textarea,
 select {
